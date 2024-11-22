@@ -1,0 +1,9 @@
+Choice of Majors: Are Women Really Different from Men?
+
+NBER Working Paper No. 23735
+
+Issued in August 2017
+
+NBER Program(s):Economics of Education, Labor Studies
+
+Recent work suggests that women are more responsive to negative feedback than men in certain environments. We examine whether negative feedback in the form of relatively low grades in major-related classes explains gender differences in the final majors undergraduates choose. We use unique administrative data from a large private university on the East Coast from 2009-2016 to test whether women are more sensitive to grades than men, and whether the gender composition of major-related classes affects major changes. We also control for other factors that may affect a student's final major including: high school student performance, gender of faculty, and economic returns of majors. Finally, we examine how students' decisions are affected by external cues that signal STEM fields as masculine. The results show that high school academic preparation, faculty gender composition, and major returns have little effect on major switching behaviors, and that women and men are equally likely to change their major in response to poor grades in major-related courses. Moreover, women in male-dominated majors do not exhibit different patterns of switching behaviors relative to their male colleagues. Women

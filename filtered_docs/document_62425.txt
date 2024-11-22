@@ -1,0 +1,7 @@
+More options: Share, Mark as favorite
+
+Note: First table and text below (Item #2) have been updated to clarify how “Equal Commute Day” is calculated.
+
+The OECD Family Database (available here) has some fascinating statistics on average commute times by gender, and a summary of some of those data are displayed in the two tables above (click to enlarge). I was first made aware of these OECD commute times data from a blog post by Jim Rose (“The reverse gender gap in commuting times across the OECD”) where Jim suggests that “Commuting times need to be incorporated into calculations of the gender wage gap because they represent a serious fixed cost of working that is higher for men than for women.” Good point.
+
+The graph that Jim displays on his blog is based on data from this OECD Excel file that contains the average commute times (minutes per day) for all adult men and women, including “self-employed who work at home and working age survey-respondents who do not participate in the labor market.” The OECD goes on to say that “Obviously, estimates on average commuting times for all respondents are lower than when such estimates are based on responses by workers only

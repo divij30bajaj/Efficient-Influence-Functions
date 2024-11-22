@@ -1,0 +1,19 @@
+This week the Brandwatch React team presented a collection of our US Election social data insights at Oxford University.
+
+The event focused on how the election has been going down on social media, and we decided to focus our presentation on the way candidates and voters have been interacting with each other online.
+
+Key points
+
+We focused on gender data, the way the candidates interact with each other and the role of influencers in the run up to this year’s election. Here are some of our key findings, with more details below:
+
+In general there are more male-categorized authors talking about the candidates, though females consistently out-tweet males during debates.
+
+Hillary Clinton is tweeting about Donald Trump far more than he is tweeting about her.
+
+The most influential Republicans and most influential Democrats have a very different make-up when it comes to the number of organizational accounts and well-known/official figures in each list.
+
+Zooming in on gender
+
+When you’re considering the number of tweets directed at a candidate it’s interesting to look at both the volume of tweets overall and the number of unique authors posting them.
+
+Taking a look at the gender breakdown of unique authors discussing Clinton and Trump
