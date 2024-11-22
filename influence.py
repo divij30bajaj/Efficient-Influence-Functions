@@ -62,7 +62,7 @@ def main():
 
 if __name__ == '__main__':
     ### HYPERPARAMETERS ###
-    topk = 1
+    topk = 5
     max_length = 64
     sample_size = 100
     #######################

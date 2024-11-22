@@ -32,7 +32,6 @@ class InfluenceCalc:
             top_influences = top_influences
 
             gender_bias_dir = torch.load('direction/layer2_dir.pt')
-            gender_bias_dir = torch.Tensor(gender_bias_dir)
 
             influence_scores = torch.matmul(top_influences, gender_bias_dir)
             top_influences, top_samples = torch.topk(influence_scores, topk)
@@ -68,7 +67,7 @@ def main():
 
 if __name__ == '__main__':
     ### HYPERPARAMETERS ###
-    topk = 1
+    topk = 5
     max_length = 64
     sample_size = 100
     #######################
