@@ -23,16 +23,16 @@ class InfluenceCalc:
         all_top_influences = []
 
         print("Entering Inverse-Hessian Vector Product (IHVP) computation...")
-        ihvp = get_ihvp(self.model, self.tokenizer, self.dataset, self.mlp_blocks, self.device)
+        ihvp = get_ihvp(self.model, self.tokenizer, self.dataset, self.mlp_blocks, self.device).cpu()
         for query in queries:
             grads = get_activation_gradients(self.model, self.tokenizer, [query], self.mlp_blocks, self.device, layer_index=self.layer_index)
             query_grad = torch.cat([q[0].reshape(768, -1) for q in grads], dim=1)
 
             top_influences = -1 * torch.einsum("ij,kj->ik", ihvp, query_grad)
-            top_influences = top_influences.cuda()
+            top_influences = top_influences
 
             gender_bias_dir = torch.load('direction/layer2_dir.pt')
-            gender_bias_dir = torch.Tensor(gender_bias_dir).cuda()
+            gender_bias_dir = torch.Tensor(gender_bias_dir)
 
             influence_scores = torch.matmul(top_influences, gender_bias_dir)
             top_influences, top_samples = torch.topk(influence_scores, topk)

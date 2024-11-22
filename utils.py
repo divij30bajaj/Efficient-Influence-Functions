@@ -86,7 +86,7 @@ def get_activation_gradients(model, tokenizer, dataset, mlp_blocks, device, laye
                 grads[j].append(full_grad.clone().detach().unsqueeze(0))
 
         for i in range(len(grads)):
-            new_grads[i].append(torch.cat(grads[i], dim=0))
+            new_grads[i].append(torch.cat(grads[i], dim=0).cpu())
 
     return new_grads
 
